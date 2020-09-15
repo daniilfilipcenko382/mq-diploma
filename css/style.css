@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-style: bold;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-style: regular;
+  font-weight: 400;
+}
+
+/*  */
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url(../images/football_767.jpg);
+    min-height: 568px;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-color: #000000;
+    background-size: 450px;
+      padding-top: 30px;
+  }
+
+
+.header::after {
+    content:""; 
+    background-color: #0a0e34;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    opacity: 0.90;
+   
+
+  }
+
+.header_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.logo {
+    width: 124px;
+    height: 124px;
+    position: relative;
+    z-index: 1;
+  }
+    
+      
+        
+ h1 {
+    color: #fff;
+    font-size: 28px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: OpenSans-bold;
+     text-align: left;
+     padding-left: 10%;
+     margin-top: 40px;
+     
+    }
+    
+    .titleText2 {
+        display: block;
+        padding-left: 10%;
+        line-height: 60x;
+    }
+    
+    .buttons .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        z-index: 1;
+        margin-top: 70px;
+    }
+    
+    .buttonAP { 
+        
+        width: 280px;
+        height: 35px;
+        border-radius: 17px;
+        background-color: #5e42b0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: none; 
+         outline: none;
+        
+}
+    
+    .buttonAP:hover {
+         background: #411dad; 
+        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    }
+    
+    .buttonAP:active {
+     background: #411dad; 
+    transform: translateY(4px);
+    }
+      
+    
+     .buttonAP .buttonText {
+        font-weight: 700;
+        font-family: OpenSans-bold;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 8px;
+         text-align: left;
+         padding-top: 4px;
+         padding-left: 8px;
+        
+    }
+    
+    .APlogo {
+       width: 25px;
+        height: 25px;
+        
+    }
+    
+    
+   .regularText {
+    font-weight: 400;
+    font-family: OpenSans-regular;
+    display: block;
+}
+
+
+  .buttonGP { 
+        
+        width: 280px;
+        height: 35px;
+        border-radius: 17px;
+        background-color: #5e42b0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: none; 
+        outline: none;
+        margin-top: 10px;
+        padding-right: 19px;
+}
+
+ .buttonGP:hover {
+         background: #411dad; 
+        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    }
+    
+    .buttonGP:active {
+         
+        background: #411dad; 
+    transform: translateY(4px);
+    }
+     .buttonGP .buttonText {
+        font-weight: 700;
+        font-family: OpenSans-bold;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 8px;
+         text-align: left;
+         padding-top: 3px;
+         padding-left: 8px;
+        
+    }
+    
+    .GPlogo {
+       width: 25px;
+       height: 25px;
+        
+    }
+    
+    
+   .regularText {
+    font-weight: 400;
+    font-family: OpenSans-regular;
+    display: block;
+}
+
+/*BODY*/
+    .section {
+       min-height: 500px;
+    } 
+    .footballer {
+        width: 100%;
+    }
+}
